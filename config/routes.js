@@ -34,7 +34,11 @@ module.exports.routes = {
 
   '/': {
     view: 'mysweethomepage'
-  }
+  },
+
+  '/user/signupform': 'UserController.signupform',
+
+  '/user/create': 'UserController.create'
 
   /***************************************************************************
   *                                                                          *
